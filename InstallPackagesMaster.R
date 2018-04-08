@@ -33,3 +33,7 @@ install.packages("markdown", lib=folder, dependencies=TRUE) # Makes dynamic docu
 install.packages("learnr", lib=folder, dependencies=TRUE) # Turns R markdown documents into interactice tutorials
 install.packages("shiny", lib=folder, dependencies=TRUE) # Making interactive web applications
 install.packages("magrittr", lib=folder, dependencies=TRUE) # Includes the pipe operator to improve readability of code
+install.packages("caTools", lib=folder, dependencies=TRUE) # Includes function for plotting AUC curves
+install.packages("ranger", lib=folder, dependencies=TRUE) # Faster random forests package
+install.packages("glmnet", lib=folder, dependencies=TRUE) # Lasso and ridge regression
+install.packages("caretEnsemble", lib=folder, dependencies=TRUE) # Enseble methods for ML
